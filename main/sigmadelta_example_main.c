@@ -1,4 +1,5 @@
 /* Sigma-delta Example
+https://github.com/FARLY7/si7210-driver
 
    This example code is in the Public Domain (or CC0 licensed, at your option.)
 
