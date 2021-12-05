@@ -12,6 +12,7 @@ https://github.com/FARLY7/si7210-driver
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "driver/sigmadelta.h"
+#include "driver/i2c.h"
 /*
  * This test code will configure sigma-delta and set GPIO4 as a signal output pin.
  * If you connect this GPIO4 with a LED, you will see the LED blinking slowly.

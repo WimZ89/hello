@@ -1,0 +1,359 @@
+Open On-Chip Debugger  v0.10.0-esp32-20210401 (2021-04-01-15:45)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+adapter speed: 20000 kHz
+
+Warn : Interface already configured, ignoring
+Flashing /home/wimz/eclipse-esp/sigmadelta/build/partition_table/partition-table.bin at 0x8000
+Info : ftdi: if you experience problems at higher adapter clocks, try the command "ftdi_tdo_sample_edge falling"
+Info : clock speed 20000 kHz
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Target halted, PC=0x40008754, debug_reason=00000000
+Info : esp32.cpu1: Target halted, PC=0x400076E0, debug_reason=00000000
+Info : Listening on port 3333 for gdb connections
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : Set GDB target to 'esp32.cpu0'
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+Info : esp32.cpu1: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : Flash mapping 0: 0x10020 -> 0x3f400020, 27 KB
+Info : Flash mapping 1: 0x20020 -> 0x400d0020, 79 KB
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : Auto-detected flash bank 'esp32.cpu0.flash' size 4096 KB
+Info : Using flash bank 'esp32.cpu0.flash' size 4096 KB
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : Flash mapping 0: 0x10020 -> 0x3f400020, 27 KB
+Info : Flash mapping 1: 0x20020 -> 0x400d0020, 79 KB
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : Auto-detected flash bank 'esp32.cpu1.flash' size 4096 KB
+Info : Using flash bank 'esp32.cpu1.flash' size 4096 KB
+** Programming Started **
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : PROF: Data transferred in 28.253 ms @ 141.578 KB/s
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+** Programming Finished **
+** Verify Started **
+Info : PROF: Data transferred in 24.418 ms @ 122.86 KB/s
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+** Verified OK **
+** Flashing done for partition_table/partition-table.bin **
+Flashing /home/wimz/eclipse-esp/sigmadelta/build/bootloader/bootloader.bin at 0x1000
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+Info : esp32.cpu1: Target halted, PC=0x40000400, debug_reason=00000000
+** Programming Started **
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : PROF: Data transferred in 124.838 ms @ 224.291 KB/s
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+** Programming Finished **
+** Verify Started **
+Info : PROF: Data transferred in 131.147 ms @ 186.813 KB/s
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+** Verified OK **
+** Flashing done for bootloader/bootloader.bin **
+Flashing /home/wimz/eclipse-esp/sigmadelta/build/sigmadelta.bin at 0x10000
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+Info : esp32.cpu1: Target halted, PC=0x40000400, debug_reason=00000000
+** Programming Started **
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : PROF: Data transferred in 789.787 ms @ 207.651 KB/s
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+** Programming Finished **
+** Verify Started **
+Info : PROF: Data transferred in 1098.65 ms @ 145.647 KB/s
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+** Verified OK **
+** Flashing done for sigmadelta.bin **
+** Resetting Target **
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+0
+Started by GNU MCU Eclipse
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : accepting 'gdb' connection on tcp/3333
+Warn : No symbols for FreeRTOS!
+Info : esp32.cpu0: Target halted, PC=0x40009073, debug_reason=00000000
+Info : esp32.cpu1: Target halted, PC=0x400076E2, debug_reason=00000000
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : Flash mapping 0: 0x10020 -> 0x3f400020, 27 KB
+Info : Flash mapping 1: 0x20020 -> 0x400d0020, 79 KB
+Info : Using flash bank 'esp32.cpu0.irom' size 80 KB
+Info : esp32.cpu0: Target halted, PC=0x40091C2A, debug_reason=00000001
+Info : Flash mapping 0: 0x10020 -> 0x3f400020, 27 KB
+Info : Flash mapping 1: 0x20020 -> 0x400d0020, 79 KB
+Info : Using flash bank 'esp32.cpu0.drom' size 28 KB
+Info : New GDB Connection: 1, Target esp32.cpu0, state: halted
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+Info : esp32.cpu1: Target halted, PC=0x40000400, debug_reason=00000000
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+Info : esp32.cpu1: Target halted, PC=0x40000400, debug_reason=00000000
+invalid command name "arm"
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32.cpu0: Debug controller was reset.
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x500000CF, debug_reason=00000000
+Info : esp32.cpu0: Core was reset.
+Info : esp32.cpu0: Target halted, PC=0x40000400, debug_reason=00000000
+Info : esp32.cpu1: Debug controller was reset.
+Info : esp32.cpu1: Core was reset.
+Info : esp32.cpu1: Target halted, PC=0x40000400, debug_reason=00000000
+===== Xtensa registers
+(0) pc (/32): 0x40000400
+(1) ar0 (/32): 0x00000000
+(2) ar1 (/32): 0x00000000
+(3) ar2 (/32): 0x00000000
+(4) ar3 (/32): 0x00000000
+(5) ar4 (/32): 0x00000000
+(6) ar5 (/32): 0x00000000
+(7) ar6 (/32): 0x00000000
+(8) ar7 (/32): 0x00000000
+(9) ar8 (/32): 0x00000000
+(10) ar9 (/32): 0x00000000
+(11) ar10 (/32): 0x00000000
+(12) ar11 (/32): 0x00000000
+(13) ar12 (/32): 0x00000000
+(14) ar13 (/32): 0x00000000
+(15) ar14 (/32): 0x00000000
+(16) ar15 (/32): 0x00000000
+(17) ar16 (/32): 0x00000000
+(18) ar17 (/32): 0x00000000
+(19) ar18 (/32): 0x00000000
+(20) ar19 (/32): 0x00000000
+(21) ar20 (/32): 0x00000000
+(22) ar21 (/32): 0x00000000
+(23) ar22 (/32): 0x00000000
+(24) ar23 (/32): 0x00000000
+(25) ar24 (/32): 0x00000000
+(26) ar25 (/32): 0x00000000
+(27) ar26 (/32): 0x00000000
+(28) ar27 (/32): 0x00000000
+(29) ar28 (/32): 0x00000000
+(30) ar29 (/32): 0x00000000
+(31) ar30 (/32): 0x00000000
+(32) ar31 (/32): 0x00000000
+(33) ar32 (/32): 0x00000000
+(34) ar33 (/32): 0x00000000
+(35) ar34 (/32): 0x00000000
+(36) ar35 (/32): 0x00000000
+(37) ar36 (/32): 0x00000000
+(38) ar37 (/32): 0x00000000
+(39) ar38 (/32): 0x00000000
+(40) ar39 (/32): 0x00000000
+(41) ar40 (/32): 0x00000000
+(42) ar41 (/32): 0x00000000
+(43) ar42 (/32): 0x00000000
+(44) ar43 (/32): 0x00000000
+(45) ar44 (/32): 0x00000000
+(46) ar45 (/32): 0x00000000
+(47) ar46 (/32): 0x00000000
+(48) ar47 (/32): 0x00000000
+(49) ar48 (/32): 0x00000000
+(50) ar49 (/32): 0x00000000
+(51) ar50 (/32): 0x00000000
+(52) ar51 (/32): 0x00000000
+(53) ar52 (/32): 0x00000000
+(54) ar53 (/32): 0x00000000
+(55) ar54 (/32): 0x00000000
+(56) ar55 (/32): 0x00000000
+(57) ar56 (/32): 0x00000000
+(58) ar57 (/32): 0x00000000
+(59) ar58 (/32): 0x00000000
+(60) ar59 (/32): 0x00000000
+(61) ar60 (/32): 0x00000000
+(62) ar61 (/32): 0x00000000
+(63) ar62 (/32): 0x00000000
+(64) ar63 (/32): 0x00000000
+(65) lbeg (/32): 0x00000000
+(66) lend (/32): 0x00000000
+(67) lcount (/32): 0x00000000
+(68) sar (/32): 0x00000000
+(69) windowbase (/32): 0x00000000
+(70) windowstart (/32): 0x00000001
+(71) configid0 (/32): 0x40000400
+(72) configid1 (/32): 0x1CC5FE96
+(73) ps (/32): 0x0000001F
+(74) threadptr (/32): 0x00000000
+(75) br (/32): 0x00000000
+(76) scompare1 (/32): 0x00000000
+(77) acclo (/32): 0x00000000
+(78) acchi (/32): 0x00000000
+(79) m0 (/32): 0x00000000
+(80) m1 (/32): 0x00000000
+(81) m2 (/32): 0x00000000
+(82) m3 (/32): 0x00000000
+(83) f0 (/32): 0x00000000
+(84) f1 (/32): 0x00000000
+(85) f2 (/32): 0x00000000
+(86) f3 (/32): 0x00000000
+(87) f4 (/32): 0x00000000
+(88) f5 (/32): 0x00000000
+(89) f6 (/32): 0x00000000
+(90) f7 (/32): 0x00000000
+(91) f8 (/32): 0x00000000
+(92) f9 (/32): 0x00000000
+(93) f10 (/32): 0x00000000
+(94) f11 (/32): 0x00000000
+(95) f12 (/32): 0x00000000
+(96) f13 (/32): 0x00000000
+(97) f14 (/32): 0x00000000
+(98) f15 (/32): 0x00000000
+(99) fcr (/32): 0x00000000
+(100) fsr (/32): 0x00000000
+(101) mmid (/32)
+(102) ibreakenable (/32): 0x00000000
+(103) memctl (/32): 0x00000000
+(104) atomctl (/32): 0x00000028
+(105) ibreaka0 (/32): 0x00000000
+(106) ibreaka1 (/32): 0x00000000
+(107) dbreaka0 (/32): 0x00000000
+(108) dbreaka1 (/32): 0x00000000
+(109) dbreakc0 (/32): 0x00000000
+(110) dbreakc1 (/32): 0x00000000
+(111) epc1 (/32): 0x00000000
+(112) epc2 (/32): 0x00000000
+(113) epc3 (/32): 0x00000000
+(114) epc4 (/32): 0x00000000
+(115) epc5 (/32): 0x00000000
+(116) epc6 (/32): 0x40000400
+(117) epc7 (/32): 0x00000000
+(118) depc (/32): 0x00000000
+(119) eps2 (/32): 0x00000000
+(120) eps3 (/32): 0x00000000
+(121) eps4 (/32): 0x00000000
+(122) eps5 (/32): 0x00000000
+(123) eps6 (/32): 0x0000001F
+(124) eps7 (/32): 0x00000000
+(125) excsave1 (/32): 0x00000000
+(126) excsave2 (/32): 0x00000000
+(127) excsave3 (/32): 0x00000000
+(128) excsave4 (/32): 0x00000000
+(129) excsave5 (/32): 0x00000000
+(130) excsave6 (/32): 0x00000000
+(131) excsave7 (/32): 0x00000000
+(132) cpenable (/32): 0x000000FF
+(133) interrupt (/32): 0x00018040
+(134) intset (/32)
+(135) intclear (/32)
+(136) intenable (/32): 0x00000000
+(137) vecbase (/32): 0x40000000
+(138) exccause (/32): 0x00000000
+(139) debugcause (/32): 0x00000020
+(140) ccount (/32): 0x00000004
+(141) prid (/32): 0x0000CDCD
+(142) icount (/32): 0x00000000
+(143) icountlevel (/32): 0x00000000
+(144) excvaddr (/32): 0x00000000
+(145) ccompare0 (/32): 0x00000000
+(146) ccompare1 (/32): 0x00000000
+(147) ccompare2 (/32): 0x00000000
+(148) misc0 (/32): 0x00000000
+(149) misc1 (/32): 0x00000000
+(150) misc2 (/32): 0x00000000
+(151) misc3 (/32): 0x00000000
+(163) a0 (/32): 0x00000000
+(164) a1 (/32): 0x00000000
+(165) a2 (/32): 0x00000000
+(166) a3 (/32): 0x00000000 (dirty)
+(167) a4 (/32): 0x00000000
+(168) a5 (/32): 0x00000000
+(169) a6 (/32): 0x00000000
+(170) a7 (/32): 0x00000000
+(171) a8 (/32): 0x00000000
+(172) a9 (/32): 0x00000000
+(173) a10 (/32): 0x00000000
+(174) a11 (/32): 0x00000000
+(175) a12 (/32): 0x00000000
+(176) a13 (/32): 0x00000000
+(177) a14 (/32): 0x00000000
+(178) a15 (/32): 0x00000000
+(179) pwrctl (/32)
+(180) pwrstat (/32)
+(181) eristat (/32)
+(182) cs_itctrl (/32)
+(183) cs_claimset (/32)
+(184) cs_claimclr (/32)
+(185) cs_lockaccess (/32)
+(186) cs_lockstatus (/32)
+(187) cs_authstatus (/32)
+(188) fault_info (/32)
+(189) trax_id (/32)
+(190) trax_ctrl (/32)
+(191) trax_stat (/32)
+(192) trax_data (/32)
+(193) trax_addr (/32)
+(194) trax_pctrigger (/32)
+(195) trax_pcmatch (/32)
+(196) trax_delay (/32)
+(197) trax_memstart (/32)
+(198) trax_memend (/32)
+(199) pmg (/32)
+(200) pmoc (/32)
+(201) pm0 (/32)
+(202) pm1 (/32)
+(203) pmctrl0 (/32)
+(204) pmctrl1 (/32)
+(205) pmstat0 (/32)
+(206) pmstat1 (/32)
+(207) ocd_id (/32)
+(208) ocd_dcrclr (/32)
+(209) ocd_dcrset (/32)
+(210) ocd_dsr (/32)
+(211) ddr (/32)
+(212) expstate (/32): 0x00000000
+(213) f64r_lo (/32): 0x00000000
+(214) f64r_hi (/32): 0x00000000
+(215) f64s (/32): 0x00000000
+
+Info : esp32.cpu0: Target halted, PC=0x4000874A, debug_reason=00000000
+Info : Set GDB target to 'esp32.cpu0'
+Info : esp32.cpu1: Target halted, PC=0x400076DD, debug_reason=00000000
+Info : dropped 'gdb' connection
+shutdown command invoked
